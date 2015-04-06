@@ -1,0 +1,195 @@
+.BA {
+  .wall{     
+    z-index: 6;
+    background-color: $colorWall;
+    -webkit-clip-path: polygon(27% 35%, 55% 28%, 55% 61%, 27% 59%);
+  }
+
+  .wall2 {
+    z-index: 7;  
+    background-color: $colorWall-40;  
+    -webkit-clip-path: polygon(63% 28%, 82% 34%, 82% 59%, 63% 61%);
+  };
+  .tower {
+    z-index: 13;
+    background-color: $colorWall-20;
+  -webkit-clip-path: polygon(57% 16%, 59% 17%, 59% 63%, 55% 62%, 55% 18%);
+  }
+  .tower2 {
+    z-index: 13;
+    background-color: $colorWall-60;
+  -webkit-clip-path: polygon(61% 16%, 59% 17%, 59% 63%, 63% 62%, 63% 18%);
+  }
+
+  .towertop1 {
+    z-index: 10;
+    background-color: $colorWall-20;
+  -webkit-clip-path: polygon(56% 17%, 57% 17%, 58% 17%, 58% 11%, 56% 12%);
+  }
+
+  .towertop2 {
+    z-index: 11;
+    background-color: $colorWall-40;
+  -webkit-clip-path: polygon(58% 17%, 58% 17%, 58% 11%, 60% 11%, 60% 17%);
+  }
+
+  .towertop3 {
+    z-index: 12;
+    background-color: $colorWall-60;
+  -webkit-clip-path: polygon(61% 17%, 60% 17%, 60% 11%, 62% 12%, 62% 18%);
+  }
+
+  .rooftop1 {
+    z-index: 12;
+    background-color: $colorRoof;
+  -webkit-clip-path: polygon(58% 11%, 56% 12%, 59% 5%);
+  }
+  .rooftop2 {
+    z-index: 12;
+    background-color: $colorRoof-20;
+  -webkit-clip-path: polygon(60% 11%, 58% 11%, 59% 5%);
+  }
+  .rooftop3 {
+    z-index: 12;
+    background-color: $colorRoof-40;
+  -webkit-clip-path: polygon(62% 12%, 60% 11%, 59% 5%);
+  }
+  .roof {
+    z-index: 13;
+    background-color: $colorRoof;
+  -webkit-clip-path: polygon(27% 35%, 30% 28%, 55% 21%, 55% 28%);
+  }
+
+  .roof2 {
+    z-index: 14;
+    background-color: $colorRoof-40;
+  -webkit-clip-path: polygon(82% 34%, 80% 28%, 63% 21%, 63% 28%);
+  }
+
+  .backtower {
+    z-index: 14;
+    background-color: $colorWall-20;
+  -webkit-clip-path: polygon(80% 28%, 80% 26%, 81.5% 24%, 83% 26%, 83% 60%, 82% 60%, 82% 34%);
+  }
+  .backtower2 {
+    z-index: 15;
+    background-color: $colorWall-60;
+  -webkit-clip-path: polygon(85% 59%, 85% 26%, 84% 24%, 83% 26%, 83% 60%);
+  }
+  .backtowertop {
+    z-index: 13;
+    background-color: $colorWall-40;
+  -webkit-clip-path: polygon(81% 21%, 81% 25%, 81.5% 24%, 83% 26%, 84% 24%, 84.5% 26%, 84.5% 21%, 84% 20.5%, 82% 20.5%);
+  }
+
+  .roofback {
+    z-index: 20;
+    background-color: $colorRoof-40;
+    -webkit-clip-path: polygon(85% 22%, 83% 16%, 84% 21%);  
+  }
+  .roofback2 {
+    z-index: 20;
+    background-color: $colorRoof-20;
+    -webkit-clip-path: polygon(82% 21%, 83% 16%, 84% 21%);  
+  }
+  .roofback3 {
+    z-index: 20;
+    background-color: $colorRoof;
+    -webkit-clip-path: polygon(82% 21%, 83% 16%, 80.5% 22%);   
+  }
+  .maintower {
+    z-index: 14;
+    background-color: $colorWall-60;
+  -webkit-clip-path: polygon(30% 28%, 30% 27%, 28% 24%, 25% 25%, 25% 61%, 27% 60%, 27% 35%);
+  }
+  .maintower2 {
+    z-index: 20;
+    background-color: $colorWall-20;
+  -webkit-clip-path: polygon(20% 59%, 20% 27%, 22.5% 24%, 25% 25%, 25% 61%);
+  }
+  .maintowertop {
+    z-index: 20;
+    background-color: $colorWall-20;
+  -webkit-clip-path: polygon(21% 20.5%, 21% 27%, 22.5% 24%, 23.5% 25%, 23.5% 19%);
+  }
+  .maintowertop2 {
+    z-index: 13;
+    background-color: $colorWall-40;
+  -webkit-clip-path: polygon(27% 19%, 27% 25%, 25% 25%, 23.5% 25%, 23.5% 19%);
+  }
+  .maintowertop3 {
+    z-index: 13;
+    background-color: $colorWall-60;
+  -webkit-clip-path: polygon(27% 19%, 27% 25%, 28% 24%, 29% 26%, 29% 20.5%);
+  }
+  .maintowerroof {
+   z-index: 13;
+    background-color: $colorRoof-20;
+    -webkit-clip-path: polygon(25.5% 10%, 27% 19%, 23.5% 20%);
+  }
+  .maintowerroof2 {
+   z-index: 13;
+    background-color: $colorRoof ;
+    -webkit-clip-path: polygon(25.5% 10%, 21% 20%, 23.5% 20%);
+  }
+  .maintowerroof3 {
+   z-index: 13;
+    background-color: $colorRoof-40;
+    -webkit-clip-path: polygon(25.5% 10%, 29% 20.5%, 27% 19%);
+  }
+  .fort {
+   z-index: 21;
+    background-color: $colorWall-20 ;
+    -webkit-clip-path: polygon(17% 52%, 16% 63%, 21% 66%, 51% 78%, 78% 79%, 84% 80%, 84% 59%, 78% 58%, 78% 64%, 50% 63%)  ;  
+  }
+  .fort2 {
+   z-index: 21;
+    background-color: $colorWall-40;
+    -webkit-clip-path: polygon(84% 59%, 84% 80%, 89% 78%, 89% 58%);
+  }
+  .fort3 {
+   z-index: 21;
+    background-color: $colorWall-60;
+    -webkit-clip-path: polygon(89% 65%, 89% 77%, 96% 67%, 96% 52%, 85% 50%, 89% 58%, 89% 61%, 92% 61%);
+  }
+  .fortroof {
+   z-index: 21;
+    background-color: $colorRoof-40;
+    -webkit-clip-path: polygon(84% 59%, 84% 48%, 89% 58%);
+  }
+  .fortroof2 {
+   z-index: 21;
+    background-color: $colorRoof;
+    -webkit-clip-path: polygon(84% 59%, 84% 48%, 78% 58%);
+  }
+  .dec {   
+    z-index: 21;
+    background-color: $colorWall-20;
+    -webkit-clip-path: polygon(50% 25%, 51% 25%, 50% 28%);
+  }
+  .dec2 {   
+    z-index: 21;
+    background-color: $colorWall-20;
+    -webkit-clip-path: polygon(41% 27%, 42% 27%, 41% 30%);
+  }
+  .dec3 {   
+    z-index: 21;
+    background-color: $colorWall-20;
+    -webkit-clip-path: polygon(33% 29%, 34% 29%, 33% 32%);
+  }
+  .dec4 {   
+    z-index: 21;
+    background-color: $colorWall;
+    -webkit-clip-path: polygon(66% 25%, 67% 28%, 67% 25%, 67% 25%);
+  }
+  .dec5 {   
+    z-index: 21;
+    background-color: $colorWall;
+    -webkit-clip-path: polygon(73% 27%, 74% 27%, 74% 30%, 74% 30%);
+  }
+  .dec6 {   
+    z-index: 21;
+    background-color: $colorWall;
+    -webkit-clip-path:polygon(79% 29%, 78% 29%, 79% 31%, 79% 31%);
+  }  
+}
