@@ -306,7 +306,7 @@ main {
   color: $colorGrayBackground!important;
 }
 
-.next, .previous, .icon.info {
+.next, .previous {
   position: absolute;
   top: 45%;
   cursor: pointer;
@@ -317,11 +317,61 @@ main {
   transform: scale(1.5);
   transition: .3s all;
 }*/
+.wrap {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 75px;
+  left: 11px;
+  z-index: 100; 
+}
+
+.imgwrap {
+  text-align: center;
+}
+
+.inner {
+  background-color: transparent;
+  -webkit-clip-path: circle(19px at 19px 22px);
+  clip-path: circle(19px at 19px 22px);
+  transition: .3s all;
+  img {
+    width: 75%;
+    margin: -40px auto 20px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px #3367D6;
+  }
+  p {
+    padding-top: 0;
+    font-size: 16px;
+    margin: 0 20px 20px;
+  }
+  h3 {
+    padding-top: 0;
+    margin: 0 20px 20px;    
+  }
+}
+.inner.open {
+  background-color: #4285f4;
+  -webkit-clip-path: circle(775px at 19px 18px);
+  clip-path: circle(575px at 19px 18px);
+  transition: .2s all;
+  .info {
+    margin: 20px;
+  }  
+}
 .next {
     right: -2%;
 }
 .previous {
   left: -2%;
+}
+.wrap {
+  top: 75px;
+  left: 11px;
+}
+.hide {
+  display: none;
 }
 .icon.info {
   border-radius: 50%;
@@ -331,7 +381,13 @@ main {
   left: 11px;
   font-size: 50px;
   line-height: 60px;
-  display: block; 
+  cursor: pointer;
+  transition: .2s all;   
+}
+.castleInfo {
+  text-align: center;
+  float: left;
+  width: 100%;
 }
 .castleWrapper {
   position: relative;
@@ -396,7 +452,7 @@ h2 {
 
 /** Larger Screens - desktops and tablets **/
 @media all and (min-width: 990px) {
-  .icon.info {
+  .icon.info, .wrap {
     top: 35px;
   }  
   .app-bar {

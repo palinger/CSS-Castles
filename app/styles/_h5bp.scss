@@ -213,13 +213,18 @@ textarea[contenteditable] {
   }  
 }
 
-@media only screen and (max-width: 650px) {
-    .icon.info {
-    top:75px
-  }
+@media only screen and (min-width: 650px) {
+  .wrap {
+    img {
+      width: 55%;
+    }
+  } 
 }
 @media only screen and (max-width: 650px) {
   /* Style adjustments for viewports that meet the condition */
+  .icon.info, .wrap {
+    top:75px
+  }
   .castleWrapper {
   height: 240px;
   width: 370px;
@@ -233,6 +238,7 @@ textarea[contenteditable] {
   .previous {
     left: -5%; 
   }
+ 
 }
 @media only screen and (max-width: 400px) {
   /* Style adjustments for viewports that meet the condition */
@@ -250,14 +256,20 @@ textarea[contenteditable] {
   .previous {
     top: 110%;
     left: 15%; 
-  }  
+  }
+  .wrap {
+    width: 90%;
+  }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
   /* Style adjustments for viewports that meet the condition */
+  .inner {
+    img {
 
+    }  
+  }
 }
-
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
      only screen and (min-resolution: 144dpi) {
   /* Style adjustments for viewports that meet the condition */

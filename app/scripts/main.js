@@ -68,7 +68,8 @@
       townSelector= $(".town"),
       next = $(".next"),
       previous = $(".previous"),
-      nextPrevious = $(".next, .previous");
+      nextPrevious = $(".next, .previous"),
+      infoIcon = $(".icon.info");
 
   var getTownClass = function(clickedElement) {
     var townClass = clickedElement.attr("data-town"),
@@ -138,5 +139,11 @@
       townSelector.addClass(previousTown);
       castleNameSelector.text(nextCaslteName);
   });
+
+  infoIcon.on("click",function(){
+    $(this).parent().toggleClass("open");
+    $(".castleInfo").toggleClass("hide");
+  });
+
 
 })();
