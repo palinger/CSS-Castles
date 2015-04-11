@@ -130,7 +130,7 @@
   .maintowerroof2 {
    z-index: 13;
     background-color: $TNcolorRoof ;
-    -webkit-clip-path: polygon(38% 11%, 37% 20%, 38% 16%);
+    -webkit-clip-path: polygon(38% 11%, 37% 19%, 39% 19%);
   }
   .maintowerroof3 {
    z-index: 13;
@@ -162,9 +162,11 @@
     background-color: $TNcolorRoof;
     -webkit-clip-path: polygon(34% 38%, 36% 35%, 43% 35%);
   }
-  .hill {
-    bottom: 0px;
-   -webkit-clip-path: ellipse(42% 55% at 55% 99%);
+  .cloud{
+    .side, .main {
+      left: 19.5%;
+      transition: 15s all;
+    }
   }
   .castle {
     left: 14.5%;
